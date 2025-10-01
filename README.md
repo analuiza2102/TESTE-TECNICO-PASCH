@@ -65,7 +65,6 @@ Se aparecer o erro “`vite` não é reconhecido”, verifique se as dependênci
 
 ## 🗂️ Estrutura (alto nível)
 
-```
 src/
   components/
     HomePage.tsx
@@ -83,7 +82,24 @@ src/
   App.tsx
   main.tsx
 vite.config.ts
-```
+
+src/
+  components/
+    HomePage.tsx
+    UserProfile.tsx
+    ui/...
+  services/
+    githubApi.ts
+  hooks/
+    useGitHubUser.ts
+  styles/
+    globals.css
+  utils/
+    validators.ts
+    constants.ts
+  App.tsx
+  main.tsx
+vite.config.ts
 
 ---
 
