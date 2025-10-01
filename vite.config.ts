@@ -12,10 +12,9 @@ export default defineConfig({
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
     alias: {
-      // alias estável do projeto
+  
       '@': resolve(__dirname, './src'),
 
-      // ---- aliases para imports com versão (mantêm seu código atual funcionando) ----
       'vaul@1.1.2': 'vaul',
       'sonner@2.0.3': 'sonner',
       'recharts@2.15.2': 'recharts',
@@ -58,7 +57,7 @@ export default defineConfig({
   },
   build: {
     target: 'esnext',
-    outDir: 'dist',   // alinha com Vercel
+    outDir: 'dist',   
     emptyOutDir: true,
   },
   server: {

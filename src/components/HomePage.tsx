@@ -6,15 +6,15 @@ import {
   Smartphone,
   Tablet,
   Monitor,
-} from "lucide-react";
+} from 'lucide-react';
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "./ui/card";
-import { Badge } from "./ui/badge";
+} from './ui/card';
+import { Badge } from './ui/badge';
 
 export function HomePage() {
   return (
